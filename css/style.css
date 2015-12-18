@@ -427,7 +427,7 @@ div#statistics {
 
 /* flynn begin */
 .flynn {
-	background-image:url('images/flynn.png');
+	/*background-image:url('images/flynn.png');*/
 	height:64px;
 	width:48px;
 	position:absolute;
@@ -464,3 +464,10 @@ div#statistics {
 .flynn25 {background-position:0px -1600px;}
 .flynn26 {background-position:0px -1664px;}
 /* flynn end */
+::-webkit-scrollbar { width: 12px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #000000; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #000000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #000000; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}
